@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background: rgb(255, 0, 43);
+    color: white;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+body {
+    flex: 1;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-section input {
+    padding: 0.7rem 1rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.search-section button {
+    padding: 0.7rem 1.5rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-section button:hover {
+    background-color: #042f4e;
+}
+
+.results-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.results-section h2 {
+    margin-bottom: 1rem;
+}
+
+.results-section ul {
+    list-style: none;
+    line-height: 1.8;
+}
+
+#map {
+    height: 500px;
+    width: 80%;
+    margin: 20px auto;
+    background-image:url(world_heatmap.webp);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #888;
+    border: 2px solid #007b5e;
+    }
+
+    .info-box {
+        width: 90%;
+        margin: 10rem auto;
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #969494;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        padding-left: 20px;
+        text-align: center;
+      
+      }
+      
+      ul li::before {
+        content: "✅ ";
+      }
+      #info-box {
+        width: 80%;
+        margin: 10px auto;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      

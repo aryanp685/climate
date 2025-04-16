@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Microclimate Analyzer</title>
+    <link rel="stylesheet" href="climate-analysis.css">
+</head>
+<body>
+    <header>
+        <h1>Urban Heat Island Analyzer</h1>
+        <p>Analyze the microclimate of urban areas across the globe</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="locationInput" placeholder="Enter city or coordinates...">
+            <button onclick="analyzeLocation()">Analyze</button>
+        </section>
+
+        <section class="results-section" id="results">
+            <h2>Microclimate Data</h2>
+            <p>Enter a location to view microclimate and urban heat island effects.</p>
+        </section>
+
+        <div id="map"></div>
+
+  <div class="info-box">
+    <h2>💡 Eco-Friendly Suggestions</h2>
+    <ul>
+      <li>🌳 Plant more trees</li>
+      <li>🏠 Use cool/green rooftops</li>
+      <li>🛣 Use reflective pavements</li>
+      <li>💦 Add water features (fountains, ponds)</li>
+    </ul>
+  </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Urban Microclimate Lab</p>
+    </footer>
+
+    <script src="climateAnalysis.js">    </script>
+</body>
+</html>
